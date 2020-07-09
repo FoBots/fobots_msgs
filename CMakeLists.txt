@@ -11,6 +11,14 @@ add_message_files(
   Imu.msg
   Fiducial.msg
   FiducialArray.msg
+  FiducialMapEntry.msg
+  FiducialMapEntryArray.msg
+)
+
+add_service_files(
+  FILES
+  InitializeMap.srv
+  MoveToQRCode.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
