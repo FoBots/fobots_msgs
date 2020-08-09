@@ -19,6 +19,7 @@ add_service_files(
   FILES
   InitializeMap.srv
   MoveToQRCode.srv
+  SetPose.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
