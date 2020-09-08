@@ -6,13 +6,13 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
 add_message_files(
   DIRECTORY msg
   FILES
+  Batteries.msg
   Velocities.msg
   PID.msg
   Imu.msg
   Fiducial.msg
   FiducialArray.msg
   FiducialMapEntry.msg
-  FiducialMapEntryArray.msg
 )
 
 add_service_files(
